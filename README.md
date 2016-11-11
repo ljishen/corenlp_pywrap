@@ -29,6 +29,7 @@ out = cn.basic(data, out_format='json')
 ```
 Remember 'out' would be 'requests' object, you can get information by using out.text or out.json()
 
+Note that annotation 'sentiment' is only supported by connecting to the latest version of CoreNLP Server, which should be built from source (see [Stanford CoreNLP GitHub site](https://github.com/stanfordnlp/CoreNLP)).
 
 ####Custom Function
 - arrange() can be used for getting formatted output
